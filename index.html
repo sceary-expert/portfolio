@@ -3,18 +3,25 @@
 
 <head>
   <meta charset='UTF-8'>
-  <title>Portfolio Homepage</title>
+  <!--code was Missing this... it allows functionality of media queries -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="apple-touch-icon" sizes="180x180" href="/images/logos/favicon_io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/images/logos/favicon_io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/images/logos/favicon_io/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logos/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logos/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <!-- Custom Css -->
   <link rel="stylesheet" href="styles.css">
+  <title>Portfolio Homepage</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="nav-wrapper">
+  <!-- Navbar -->
+  <nav class="nav-wrapper">
+    <div class="nav">
       <div class="left-side">
         <div class="nav-link-wrapper active-nav-link">
           <a href="index.html">Home</a>
@@ -27,14 +34,17 @@
 
       <div class="right-side">
         <div class="brand">
-       DHANANJOY DEY
+          DHANANJOY DEY
         </div>
       </div>
     </div>
-
+  </nav>
+  <!-- End of Navbar -->
+  <div class="container">
     <div class="content-wrapper">
       <div class="portfolio-items-wrapper">
 
+        <!-- Portfolio item 1-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio1.jpg)"></div>
 
@@ -43,10 +53,12 @@
               <img src="images/logos/python-language-logotype.png" alt="">
             </div>
 
-            <div class="subtitle">I built a chat applications using web socket that can make real time conversation between client and server</div>
+            <div class="subtitle">I built a chat applications using web socket that can make real time conversation
+              between client and server</div>
           </div>
         </div>
 
+        <!-- Portfolio item 2-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio2.jpg)"></div>
           <div class="img-text-wrapper">
@@ -58,6 +70,7 @@
           </div>
         </div>
 
+        <!-- Portfolio item 3-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio3.jpg)"></div>
           <div class="img-text-wrapper">
@@ -65,21 +78,25 @@
               <img src="images/logos/github (1).png" alt="">
             </div>
 
-            <div class="subtitle">Keep track of all codes that has bug with all_codes_with_bug which contains all the code that I can't fix. </div>
+            <div class="subtitle">Keep track of all codes that has bug with all_codes_with_bug which contains all the
+              code that I can't fix. </div>
           </div>
         </div>
 
+        <!-- Portfolio item 4-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio4.jpg)"></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/download.png" alt="">
+              <img src="images/logos/download.png" alt="" class="logo-lg">
             </div>
 
-            <div class="subtitle">My Youtube video downloader allows you to easily download any youtube video into your device.</div>
+            <div class="subtitle">My Youtube video downloader allows you to easily download any youtube video into your
+              device.</div>
           </div>
         </div>
 
+        <!-- Portfolio item 5-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio5.jpg)"></div>
           <div class="img-text-wrapper">
@@ -90,6 +107,7 @@
           </div>
         </div>
 
+        <!-- Portfolio item 6-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio6.jpg)"></div>
           <div class="img-text-wrapper">
@@ -97,21 +115,24 @@
               <img src="images/logos/c-.png" alt="">
             </div>
 
-            <div class="subtitle">Not only I upload all my solution but also keep track of the problem I am facing so that I can look upon that later.</div>
+            <div class="subtitle">Not only I upload all my solution but also keep track of the problem I am facing so
+              that I can look upon that later.</div>
           </div>
         </div>
 
+        <!-- Portfolio item 7-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio7.jpg)"></div>
           <div class="img-text-wrapper">
             <div class="logo-wrapper">
-              <img src="images/logos/fetch.png" alt="">
+              <img src="images/logos/fetch.png" alt="" class="logo-lg">
             </div>
 
             <div class="subtitle">You can buy any API I made from RapidAPI marketplace.</div>
           </div>
         </div>
 
+        <!-- Portfolio item 8-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio8.jpg)"></div>
           <div class="img-text-wrapper">
@@ -123,6 +144,7 @@
           </div>
         </div>
 
+        <!-- Portfolio item 9-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio9.jpg)"></div>
           <div class="img-text-wrapper">
@@ -134,6 +156,7 @@
           </div>
         </div>
 
+        <!-- Portfolio item 10-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio10.jpg)"></div>
           <div class="img-text-wrapper">
@@ -141,10 +164,12 @@
               <img src="images/logos/graph.png" alt="">
             </div>
 
-            <div class="subtitle">Voice powered Budget tracker app Dtrack keeps track of the budget in the most convinient way possible.</div>
+            <div class="subtitle">Voice powered Budget tracker app Dtrack keeps track of the budget in the most
+              convinient way possible.</div>
           </div>
         </div>
 
+        <!-- Portfolio item 11-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio11.jpg)"></div>
           <div class="img-text-wrapper">
@@ -156,6 +181,7 @@
           </div>
         </div>
 
+        <!-- Portfolio item 12-->
         <div class="portfolio-item-wrapper">
           <div class="portfolio-img-background" style="background-image:url(images/portfolio12.jpg)"></div>
           <div class="img-text-wrapper">
@@ -163,10 +189,11 @@
               <img src="images/logos/community.png" alt="">
             </div>
 
-            <div class="subtitle">  Easy way to manage details of all the students using my CRUD application.</div>
+            <div class="subtitle"> Easy way to manage details of all the students using my CRUD application.</div>
           </div>
         </div>
 
+        <!-- Portfolio item -->
       </div>
     </div>
   </div>
